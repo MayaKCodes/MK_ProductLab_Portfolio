@@ -73,6 +73,49 @@ input, select, textarea {
 }
 
 /* Basic */
+.tile {
+	width: 200px; /* Adjust the width as needed */
+	height: 150px; /* Adjust the height as needed */
+	border-radius: 10px; /* Adjust the border-radius for rounded corners */
+	background-color: #ffffff; /* Set the background color */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Set the drop shadow */
+	margin: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Add additional styling for content inside the tile if necessary */
+  .tile-content {
+	padding: 15px;
+  }
+  
+  /* Add hover effect if desired */
+  .tile:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  In this example:
+  
+  Adjust the width and height properties to set the dimensions of your tile.
+  border-radius is used to create rounded corners. Adjust the value to your preference.
+  background-color sets the background color of the tile.
+  box-shadow adds a light drop shadow. You can adjust the values in rgba for color and opacity.
+  margin provides spacing between tiles.
+  Optionally, a hover effect is added to increase the shadow on hover.
+  You can apply this CSS to an HTML element with the class tile:
+  
+  html
+  Copy code
+  <div class="tile">
+	<div class="tile-content">
+	  <!-- Your content goes here -->
+	</div>
+  </div>
+  Feel free to customize the values to suit your design preferences.
+  
+  
+  
+  
+  
+  
+  
 
 	@-ms-viewport {
 		width: device-width;
