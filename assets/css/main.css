@@ -4243,3 +4243,23 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
+/* Intro Overlay */		
+	#intro {
+		position: relative;
+		height: 100vh; /* Set height to 100% of viewport height */
+	}
+
+	#bg-wrap {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+	.overlay-text {
+		position: absolute;
+		top: 40%; /* Adjust as needed */
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2; /* Adjust as needed */
+	}
