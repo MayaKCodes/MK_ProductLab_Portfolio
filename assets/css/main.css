@@ -4260,6 +4260,32 @@ input, select, textarea {
 		position: absolute;
 		top: 40%; /* Adjust as needed */
 		left: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 2; /* Adjust as needed */
+		z-index: 5; /* Adjust as needed */
+    	text-align: left;
+		justify-items: left;
+		margin-right: 9em;
+		top: 20%;
 	}
+
+	
+	/* Style for wrapping text and image together to overlay */
+
+	.profile-photo {
+		position:absolute;
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+		border-radius: 50%;
+		margin-left: 17%;
+		top: 20%;
+	}
+
+	/* Style for the image within the profile photo container */
+	.profile-photo img {
+		width: 100%;
+		max-height: 100%;
+		object-fit: cover;
+	}
+
+
+	
